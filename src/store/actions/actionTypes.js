@@ -1,0 +1,6 @@
+export const SELECT_CITY = 'SELECT_CITY';
+
+export const REQUEST_FORECAST = 'REQUEST_FORECAST';
+export const RECEIVE_FORECAST = 'RECEIVE_FORECAST';
+
+export const ERROR_FETCH = 'ERROR_FETCH';
