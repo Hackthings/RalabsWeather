@@ -28,6 +28,7 @@ const errorFetch = (error, cityName) => ({
 
 const fetchForecast = (cityName) => (
     (dispatch) => {
+        console.log(cityName, ':', typeof cityName);
         dispatch(requestForecast(cityName));
 
         return fetch(forecastURL(cityName))

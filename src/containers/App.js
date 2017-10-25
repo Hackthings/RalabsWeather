@@ -6,6 +6,7 @@ import MainLayout from '../components/layout/MainLayout';
 import Heading from '../components/widgets/Heading';
 import Form from '../components/widgets/Form';
 import Forecast from '../components/widgets/Forecast';
+import {getUsersCity} from '../helpers/usersLocation/getUsersCity';
 
 class App extends React.Component {
     constructor(props) {
@@ -13,11 +14,8 @@ class App extends React.Component {
         this.handleCityChange = _.bind(this.handleCityChange, this);
     }
     componentDidMount() {
-        /*
-        get currentCity
         const {dispatch} = this.props;
-        dispatch(fetchForecastIfNeeded(currentCity));
-        */
+        getUsersCity(city => dispatch(selectCity(city)));
     }
     componentWillReceiveProps(nextProps) {
         console.log('appComponentWillReceiveProps');
