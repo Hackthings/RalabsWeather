@@ -5,8 +5,9 @@ import _ from 'lodash';
 import MainLayout from '../components/layout/MainLayout';
 import Heading from '../components/widgets/Heading';
 import Form from '../components/widgets/Form';
-import Forecast from '../components/widgets/Forecast';
-import {getUsersCity} from '../helpers/usersLocation/getUsersCity';
+import Main from '../components/widgets/Main';
+import {getUsersCityForecast} from '../helpers/usersLocation/getUsersCityForecast';
+import {displayUpdateDate} from '../helpers/time';
 
 class App extends React.Component {
     constructor(props) {
@@ -15,7 +16,7 @@ class App extends React.Component {
     }
     componentDidMount() {
         const {dispatch} = this.props;
-        getUsersCity(city => dispatch(selectCity(city)));
+        getUsersCityForecast(city => dispatch(selectCity(city)));
     }
     componentWillReceiveProps(nextProps) {
         console.log('appComponentWillReceiveProps');
@@ -40,7 +41,7 @@ class App extends React.Component {
                 <Form
                     handleCityChange={this.handleCityChange}
                 />
-                <Forecast
+                <Main
                     lastUpdated={lastUpdated}
                     isFetching={isFetching}
                     error={error}
@@ -53,10 +54,10 @@ class App extends React.Component {
 
 App.propTypes = {
     city: Heading.propTypes.city.isRequired,
-    forecast: Forecast.propTypes.forecast.isRequired,
-    isFetching: Forecast.propTypes.isFetching.isRequired,
-    lastUpdated: Forecast.propTypes.lastUpdated,
-    error: Forecast.propTypes.error,
+    forecast: Main.propTypes.forecast.isRequired,
+    isFetching: Main.propTypes.isFetching.isRequired,
+    lastUpdated: Main.propTypes.lastUpdated,
+    error: Main.propTypes.error,
     dispatch: PropTypes.func.isRequired
 };
 
@@ -76,7 +77,7 @@ const mapStateToProps = (state) => {
     return {
         city: selectedCity,
         isFetching,
-        lastUpdated: receivedAt && new Date(receivedAt).toLocaleString(),
+        lastUpdated: receivedAt && displayUpdateDate(receivedAt),
         error,
         forecast
     };

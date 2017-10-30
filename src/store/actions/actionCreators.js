@@ -1,7 +1,7 @@
 import * as types from './actionTypes';
 import fetch from 'isomorphic-fetch';
-import {forecastTTL, currentTime} from '../../helpers/time';
-import {forecastURL} from '../../helpers/weather';
+import {forecastTTL, getCurrentDate} from '../../helpers/time';
+import {getForecastURL} from '../../helpers/forecast/forecastURL';
 
 export const selectCity = (cityName) => ({
     type: types.SELECT_CITY,
@@ -17,7 +17,7 @@ const receiveForecast = (cityName, forecastJSON) => ({
     type: types.RECEIVE_FORECAST,
     city: cityName,
     forecast: forecastJSON,
-    receivedAt: currentTime()
+    receivedAt: getCurrentDate()
 });
 
 const errorFetch = (error, cityName) => ({
@@ -28,10 +28,9 @@ const errorFetch = (error, cityName) => ({
 
 const fetchForecast = (cityName) => (
     (dispatch) => {
-        console.log(cityName, ':', typeof cityName);
         dispatch(requestForecast(cityName));
 
-        return fetch(forecastURL(cityName))
+        return fetch(getForecastURL(cityName))
             .then(response => response.json())
             .then(json => dispatch(receiveForecast(cityName, json)))
             .catch(err => {
@@ -47,7 +46,7 @@ const shouldFetchForecast = (state, cityName) => {
         return true;
     } else if (forecast.isFetching) {
         return false;
-    } else  if (currentTime() - forecast.receivedAt > forecastTTL) {
+    } else  if (getCurrentDate() - forecast.receivedAt > forecastTTL) {
         return true;
     }
 };

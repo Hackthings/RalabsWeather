@@ -1,4 +1,4 @@
-import revGeocodingURL from './requestURL';
+import getRevGeocodingURL from './revGeocodingURL';
 import fetch from 'isomorphic-fetch';
 import _ from 'lodash';
 
@@ -8,13 +8,13 @@ const errMessage = (err) => `Can't get current city. Error: ${err}`;
 //and dispatch SELECT_CITY acton on navigator.geolocation success
 const onSuccess = (position, selectCity) => {
     const latlng = `${position.coords.latitude},${position.coords.longitude}`;
-    fetch(revGeocodingURL(latlng))
+    fetch(getRevGeocodingURL(latlng))
         .then(response => response.json())
         .then(json => json.results[0].address_components)
         .then(components => _.filter(components, component => component.types[0] === 'locality'))
         .then(types => types[0].long_name)
         .then(city => selectCity(city))
-        .catch(err => alert(errMessage(err)));
+        .catch(err => alert(errMessage(`Failed to get city from current coordinates. (${err})`)));
 };
 
 //alert error message on navigator.geolocation error
@@ -35,7 +35,7 @@ const onError = (error) => {
     }
 };
 
-export const getUsersCity = (selectCity) => {
+export const getUsersCityForecast = (selectCity) => {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
             position => onSuccess(position, selectCity),
