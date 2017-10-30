@@ -19,6 +19,7 @@ class Form extends React.Component {
     render() {
         return (
             <form
+                className='city-input'
                 ref='cityForm'
                 onSubmit={this.submitCity}
             >

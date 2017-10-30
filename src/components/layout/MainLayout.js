@@ -1,14 +1,14 @@
 import React, {PropTypes} from 'react';
 
 const MainLayout = ({children}) => (
-    <div>
-        <header>
+    <div className='app-container'>
+        <header className='header'>
             <h1>Weather Forecast</h1>
         </header>
-        <main>
+        <div className='main'>
             {children}
-        </main>
-        <footer>
+        </div>
+        <footer className='footer'>
             <p>Powered by Ralabs</p>
         </footer>
     </div>

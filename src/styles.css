@@ -1,0 +1,58 @@
+/* GENERAL STYLES */
+body, html {
+    height: 100%;
+    background-color: #fff7a9;
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+#app {
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+/* MAIN LAYOUT */
+.app-container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header,
+.footer {
+    background-color: #407a7f;
+    color: #fff7a9;
+}
+.header {
+    padding: 50px 0;
+}
+.header h1 {
+    text-align: center;
+}
+.main {
+    min-height: 50%;
+}
+.footer {
+    padding: 20px 20px;
+    margin-top: 50px;
+}
+.footer p {
+    direction: rtl;
+}
+
+/* CITY INPUT FORM */
+.city-input {
+    background-color: #346468;
+}

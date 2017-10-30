@@ -38,10 +38,10 @@ class App extends React.Component {
 
         return (
             <MainLayout>
-                {city && <Heading city={city}/>}
                 <Form
                     handleCityChange={this.handleCityChange}
                 />
+                {city && <Heading city={city}/>}
                 <Main
                     lastUpdated={lastUpdated}
                     isFetching={isFetching}

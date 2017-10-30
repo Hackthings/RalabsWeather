@@ -3,6 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Root from './Root';
 import {AppContainer} from 'react-hot-loader';
+import './styles.css';
 
 const app = document.getElementById('app');
 
