@@ -3,11 +3,12 @@ import {connect} from 'react-redux';
 import {selectCity, fetchForecastIfNeeded} from '../store/actions/actionCreators';
 import _ from 'lodash';
 import MainLayout from '../components/layout/MainLayout';
-import Heading from '../components/widgets/Heading';
-import Form from '../components/widgets/Form';
-import Main from '../components/widgets/Main';
+import Heading from '../components/Heading';
+import Form from '../components/Form';
+import Main from '../components/Main';
 import {getUsersCityForecast} from '../helpers/usersLocation/getUsersCityForecast';
 import {displayUpdateDate} from '../helpers/time';
+import {getForecast} from '../helpers/forecast/filterRes';
 
 class App extends React.Component {
     constructor(props) {
@@ -79,7 +80,7 @@ const mapStateToProps = (state) => {
         isFetching,
         lastUpdated: receivedAt && displayUpdateDate(receivedAt),
         error,
-        forecast
+        forecast: getForecast(forecast)
     };
 };
 

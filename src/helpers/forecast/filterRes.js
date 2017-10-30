@@ -4,7 +4,7 @@ import {getDateTime} from '../time';
 
 const getDayForecast = (forecasts, daysToAdd) => (
     _.filter(forecasts, (forecast) => {
-        switch(forecast.datetime) {
+        switch (forecast.datetime) {
             case getDateTime(night, daysToAdd):
             case getDateTime(morning, daysToAdd):
             case getDateTime(day, daysToAdd):
@@ -20,14 +20,8 @@ const clarifyForecast = (data) => {
     const today = getDayForecast(data);
 
     return today.length > 0 ?
-        {
-            firstDay: today,
-            secondDay: getDayForecast(data, 1)
-        } :
-        {
-            firstDay: getDayForecast(data, 1),
-            secondDay: getDayForecast(data, 2)
-        };
+        [today, getDayForecast(data, 1)] :
+        [getDayForecast(data, 1), getDayForecast(data, 2)];
 };
 
 export const getForecast = (forecast) => (
