@@ -48,10 +48,6 @@ const getTemp = (val) => {
     }
 };
 
-const getWind = (spd, dir) => (
-    `${Math.round(spd)} m/s, ${dir}`
-);
-
 //get shaped day forecast
 const getDayForecast = (forecasts, daysToAdd) => {
     const dayForecast = filterForecast(forecasts, daysToAdd);
@@ -61,8 +57,8 @@ const getDayForecast = (forecasts, daysToAdd) => {
             daytime: getDaytime(daytimeForecast.datetime),
             app_temp: getTemp(daytimeForecast.app_temp),
             temp: getTemp(daytimeForecast.temp),
-            pres: Math.round(daytimeForecast.pres) + ' mb',
-            wind_spd: getWind(daytimeForecast.wind_spd, daytimeForecast.wind_cdir_full),
+            pres: Math.round(daytimeForecast.pres),
+            wind_spd: Math.round(daytimeForecast.wind_spd),
             rh: Math.round(daytimeForecast.rh)
         })
     ));
