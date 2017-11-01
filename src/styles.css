@@ -1,8 +1,9 @@
 /* GENERAL STYLES */
 body, html {
     height: 100%;
-    background-color: #fff7a9;
+    background-color: #ccffe4;
     font-family: Arial, sans-serif;
+    color: #3a2867;
     font-size: 100%;
     margin: 0;
 }
@@ -20,20 +21,23 @@ h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
+p {
+    margin: 0;
+    padding: 0;
+}
 a {
     text-decoration: none;
 }
 
 /* MAIN LAYOUT */
-.app-container {
+.container {
     width: 80%;
-    height: 100%;
     margin: 0 auto;
 }
 .header,
 .footer {
-    background-color: #407a7f;
-    color: #fff7a9;
+    background-color: #343b72;
+    color: #ffffff;
 }
 .header {
     padding: 50px 0;
@@ -45,14 +49,46 @@ a {
     min-height: 50%;
 }
 .footer {
-    padding: 20px 20px;
-    margin-top: 50px;
+    padding: 35px 0;
 }
 .footer p {
     direction: rtl;
 }
 
 /* CITY INPUT FORM */
+.form-input {
+    background-color: #8f99ba;
+}
 .city-input {
-    background-color: #346468;
+    padding: 15px 0;
+}
+.city-input input {
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.city-input input[type='text'],
+.city-input input[type='submit'] {
+    font-size: 17px;
+}
+.city-input input[type='text'] {
+    padding: 5px;
+    margin-right: 10px;
+}
+.city-input input[type='submit'] {
+    background-color: #ccffe4;
+    padding: 5px 20px;
+}
+.city-input input[type='submit']:hover,
+.city-input input[type='submit']:active {
+    background-color: #b3ffd6;
+}
+.city-input label[for='cityInput'],
+.city-input label[for='citySubmit'] {
+    display: none;
+}
+
+/* MAIN PART */
+.main {
+    padding: 30px 0;
 }

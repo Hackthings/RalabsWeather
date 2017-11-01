@@ -9,9 +9,15 @@ export const getCurrentDate = () => (
     Number(moment().format('x'))
 );
 
-export const displayUpdateDate = (ms) => (
-    moment(ms).format('DD/MM/YY HH:mm')
-);
+//specify one data display standard
+//hm is bool parameter, that specifies wether hours & minutes are needed
+export const displayDate = (date = {}, daysToAdd = 0, hm = false) => {
+    const dateFormat = `dddd, MMMM D${hm ? ' HH:mm,' : ','} YYYY`;
+
+    return typeof date === 'number' ?
+        moment(date).add(daysToAdd, 'days').format(dateFormat) :
+        moment(date).add(daysToAdd, 'days').format(dateFormat);
+};
 
 //handle formating date & time for finding hourly forecast
 export const getDateTime = (daytime, daysToAdd = 0) => (

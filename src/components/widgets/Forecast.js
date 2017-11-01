@@ -1,10 +1,12 @@
 import React, {PropTypes} from 'react';
 import _ from 'lodash';
+import Heading from './elements/Heading';
 import Day from './Day';
 import Meta from './elements/Meta';
 
-const Forecast = ({forecast, lastUpdated}) => (
+const Forecast = ({city, forecast, lastUpdated}) => (
     <div>
+        {city && <Heading city={city}/>}
         <ul>
             {
                 _.map(forecast.data, (dayForecast, i) => (
@@ -19,6 +21,7 @@ const Forecast = ({forecast, lastUpdated}) => (
 );
 
 Forecast.propTypes = {
+    city: Heading.propTypes.city,
     forecast: PropTypes.object,
     lastUpdated: Meta.propTypes.lastUpdated
 };

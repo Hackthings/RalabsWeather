@@ -18,14 +18,23 @@ class Form extends React.Component {
     }
     render() {
         return (
-            <form
-                className='city-input'
-                ref='cityForm'
-                onSubmit={this.submitCity}
-            >
-                <label>Enter city name: <input ref='cityName'/></label>
-                <input type='submit' value='Submit'/>
-            </form>
+            <div className='form-input'>
+                <form
+                    className='container city-input'
+                    ref='cityForm'
+                    onSubmit={this.submitCity}
+                >
+                    <label htmlFor='cityInput'>Enter city name: </label>
+                    <input
+                        id='cityInput'
+                        ref='cityName'
+                        type='text'
+                        placeholder='Enter city name here...'
+                    />
+                    <label htmlFor='citySubmit'>Submit city name</label>
+                    <input id='citySubmit' type='submit' value='Submit'/>
+                </form>
+            </div>
         );
     }
 }

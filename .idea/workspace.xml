@@ -2,14 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08dafac6-eed0-4a4b-a11e-4920b47f5801" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a02d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a02n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a03d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a03n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a04d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a04n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a05d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a05n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a06d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/a06n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c02d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c02n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c03d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c03n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c04d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/c04n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/d01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/d01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/d02d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/d02n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/d03d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/d03n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/f01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/f01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r02d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r02n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r03d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r03n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r04d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r04n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r05d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r05n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r06d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/r06n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s02d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s02n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s03d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s03n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s04d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s04n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s05d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s05n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s06d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/s06n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t01d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t01n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t02d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t02n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t03d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t03n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t04d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t04n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t05d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/t05n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/u00d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/icons/u00n.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/widgets/elements/daytimeElements/Image.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/Heading.js" afterPath="$PROJECT_DIR$/src/components/widgets/elements/Heading.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Form.js" afterPath="$PROJECT_DIR$/src/components/Form.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Main.js" afterPath="$PROJECT_DIR$/src/components/Main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/layout/MainLayout.js" afterPath="$PROJECT_DIR$/src/components/layout/MainLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/widgets/Day.js" afterPath="$PROJECT_DIR$/src/components/widgets/Day.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/widgets/Forecast.js" afterPath="$PROJECT_DIR$/src/components/widgets/Forecast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/widgets/elements/Daytime.js" afterPath="$PROJECT_DIR$/src/components/widgets/elements/Daytime.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/App.js" afterPath="$PROJECT_DIR$/src/containers/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/forecast/filterRes.js" afterPath="$PROJECT_DIR$/src/helpers/forecast/filterRes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helpers/time.js" afterPath="$PROJECT_DIR$/src/helpers/time.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles.css" afterPath="$PROJECT_DIR$/src/styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,24 +92,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="258">
+              <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -48,24 +105,65 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="62">
+              <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Forecast.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/widgets/Forecast.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Form.js">
+      <file leaf-file-name="Day.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/widgets/Day.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="57">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Daytime.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Daytime.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filterRes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/helpers/forecast/filterRes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="64" column="88" lean-forward="false" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
+              <folding>
+                <element signature="e#0#67#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getForecast</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,24 +196,27 @@
         <option value="$PROJECT_DIR$/src/helpers/usersLocation/getUsersCityForecast.js" />
         <option value="$PROJECT_DIR$/src/store/actions/actionCreators.js" />
         <option value="$PROJECT_DIR$/src/helpers/forecast/consts/forecastTime.js" />
-        <option value="$PROJECT_DIR$/src/helpers/time.js" />
         <option value="$PROJECT_DIR$/src/helpers/forecast/resFilter.js" />
         <option value="$PROJECT_DIR$/src/components/widgets/Main.js" />
-        <option value="$PROJECT_DIR$/src/helpers/forecast/filterRes.js" />
-        <option value="$PROJECT_DIR$/src/components/widgets/Day.js" />
-        <option value="$PROJECT_DIR$/src/components/widgets/elements/Daytime.js" />
         <option value="$PROJECT_DIR$/src/components/widgets/elements/Meta.js" />
-        <option value="$PROJECT_DIR$/src/components/widgets/Forecast.js" />
         <option value="$PROJECT_DIR$/src/components/widgets/elements/Error.js" />
         <option value="$PROJECT_DIR$/src/components/widgets/elements/Spinner.js" />
-        <option value="$PROJECT_DIR$/src/components/Main.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/containers/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Heading.js" />
         <option value="$PROJECT_DIR$/src/components/layout/MainLayout.js" />
-        <option value="$PROJECT_DIR$/src/components/Form.js" />
+        <option value="$PROJECT_DIR$/src/components/widgets/elements/Heading.js" />
+        <option value="$PROJECT_DIR$/src/components/widgets/Forecast.js" />
+        <option value="$PROJECT_DIR$/src/components/Main.js" />
         <option value="$PROJECT_DIR$/src/styles.css" />
+        <option value="$PROJECT_DIR$/src/components/Form.js" />
+        <option value="$PROJECT_DIR$/src/containers/App.js" />
+        <option value="$PROJECT_DIR$/src/helpers/time.js" />
+        <option value="$PROJECT_DIR$/src/components/widgets/elements/daytimeElements/Image.js" />
+        <option value="$PROJECT_DIR$/src/components/widgets/Day.js" />
+        <option value="$PROJECT_DIR$/src/helpers/forecast/filterRes.js" />
+        <option value="$PROJECT_DIR$/src/components/widgets/elements/Daytime.js" />
       </list>
     </option>
   </component>
@@ -128,9 +229,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -161,6 +261,11 @@
             <path>
               <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
               <item name="RalabsWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RalabsWeather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -168,13 +273,6 @@
               <item name="RalabsWeather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RalabsWeather" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
@@ -187,7 +285,18 @@
               <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
               <item name="RalabsWeather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RalabsWeather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+              <item name="daytimeElements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RalabsWeather" type="b2602c69:ProjectViewProjectNode" />
@@ -210,7 +319,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React-Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React.js Essential Training/stp_activity_counter" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
@@ -223,13 +332,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src\components\widgets" />
+      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\dist" />
+      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src\components\widgets\elements" />
       <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src\components" />
+      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src\components\widgets" />
       <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src\helpers\forecast" />
-      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src\helpers\usersLocation" />
-      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather\src" />
       <recent name="C:\Users\balas_pb1gom3\Desktop\RalabsWeather" />
     </key>
   </component>
@@ -277,20 +387,25 @@
       <workItem from="1509145337973" duration="637000" />
       <workItem from="1509195491765" duration="11764000" />
       <workItem from="1509353044186" duration="16282000" />
+      <workItem from="1509394032428" duration="752000" />
+      <workItem from="1509396028813" duration="7954000" />
+      <workItem from="1509447752170" duration="16433000" />
+      <workItem from="1509492365251" duration="240000" />
+      <workItem from="1509525242140" duration="302000" />
+      <workItem from="1509533429149" duration="17940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111304000" />
+    <option name="totallyTimeSpent" value="154993000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.504158" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.495842" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -303,6 +418,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -333,39 +449,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/store/actions/actionCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/actionCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/forecast/forecastURL.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -420,13 +508,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -498,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/usersLocation/getUsersCityForecast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/forecast/forecastURL.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -512,19 +586,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/forecastByCity.js">
+    <entry file="file://$PROJECT_DIR$/src/helpers/forecast/resFilter.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Meta.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="136">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/forecast/resFilter.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Root.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Spinner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Heading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="true" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/layout/MainLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/icons/a01d.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/icons/c04d.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/icons/c04n.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actions/actionCreators.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
+        <state relative-caret-position="136">
           <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/forecastByCity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/usersLocation/getUsersCityForecast.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="92" column="20" lean-forward="true" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="75" column="15" lean-forward="false" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,157 +723,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helpers/time.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Heading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        <state relative-caret-position="266">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helpers/forecast/filterRes.js">
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/daytimeElements/Image.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/widgets/Day.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="59" lean-forward="true" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Daytime.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="57">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/widgets/Forecast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="51">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helpers/forecast/filterRes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="64" column="88" lean-forward="false" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
           <folding>
-            <element signature="e#0#39#0" expanded="false" />
+            <element signature="e#0#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Error.js">
+    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Daytime.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Root.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/widgets/elements/Spinner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="316">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/layout/MainLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>

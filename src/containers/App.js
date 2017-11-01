@@ -3,11 +3,10 @@ import {connect} from 'react-redux';
 import {selectCity, fetchForecastIfNeeded} from '../store/actions/actionCreators';
 import _ from 'lodash';
 import MainLayout from '../components/layout/MainLayout';
-import Heading from '../components/Heading';
 import Form from '../components/Form';
 import Main from '../components/Main';
 import {getUsersCityForecast} from '../helpers/usersLocation/getUsersCityForecast';
-import {displayUpdateDate} from '../helpers/time';
+import {displayDate} from '../helpers/time';
 import {getForecast} from '../helpers/forecast/filterRes';
 
 class App extends React.Component {
@@ -41,8 +40,8 @@ class App extends React.Component {
                 <Form
                     handleCityChange={this.handleCityChange}
                 />
-                {city && <Heading city={city}/>}
                 <Main
+                    city={city}
                     lastUpdated={lastUpdated}
                     isFetching={isFetching}
                     error={error}
@@ -54,7 +53,7 @@ class App extends React.Component {
 }
 
 App.propTypes = {
-    city: Heading.propTypes.city.isRequired,
+    city: Main.propTypes.city.isRequired,
     forecast: Main.propTypes.forecast.isRequired,
     isFetching: Main.propTypes.isFetching.isRequired,
     lastUpdated: Main.propTypes.lastUpdated,
@@ -74,11 +73,11 @@ const mapStateToProps = (state) => {
         error: null,
         forecast: {}
     };
-
+    console.log(getForecast(forecast));
     return {
         city: selectedCity,
         isFetching,
-        lastUpdated: receivedAt && displayUpdateDate(receivedAt),
+        lastUpdated: receivedAt && displayDate(receivedAt, 0, true),
         error,
         forecast: getForecast(forecast)
     };
