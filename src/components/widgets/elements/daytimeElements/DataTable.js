@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 
-const DataTable = ({temp, pres, wind_spd, wind_cdir_full, rh, app_temp}) => (
+const DataTable = ({temp, pres, windSpd, windDir, rh, appTemp}) => (
     <table>
         <caption>Weather Data</caption>
         <tbody>
@@ -14,7 +14,7 @@ const DataTable = ({temp, pres, wind_spd, wind_cdir_full, rh, app_temp}) => (
             </tr>
             <tr>
                 <th>Wind</th>
-                <td>{wind_spd} m/s, {wind_cdir_full}</td>
+                <td>{windSpd} m/s, {windDir}</td>
             </tr>
             <tr>
                 <th>Relative humidity</th>
@@ -22,7 +22,7 @@ const DataTable = ({temp, pres, wind_spd, wind_cdir_full, rh, app_temp}) => (
             </tr>
             <tr>
                 <th>Feels like</th>
-                <td>{app_temp} &#8451;</td>
+                <td>{appTemp} &#8451;</td>
             </tr>
         </tbody>
     </table>
@@ -31,10 +31,10 @@ const DataTable = ({temp, pres, wind_spd, wind_cdir_full, rh, app_temp}) => (
 DataTable.propTypes = {
     temp: PropTypes.string,
     pres: PropTypes.number,
-    wind_spd: PropTypes.number,
-    wind_cdir_full: PropTypes.string,
+    windSpd: PropTypes.number,
+    windDir: PropTypes.string,
     rh: PropTypes.number,
-    app_temp: PropTypes.string
+    appTemp: PropTypes.string
 };
 
 export default DataTable;

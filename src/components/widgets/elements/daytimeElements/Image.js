@@ -1,10 +1,12 @@
 import React, {PropTypes} from 'react';
 
 const Image = ({icon, description}) => (
-    <img
-        alt={`Weather icon: ${description}`}
-        src={`/dist/icons/${icon}.png`}
-    />
+    <div className='weather-icon'>
+        <img
+            alt={`Weather icon: ${description}`}
+            src={`/dist/icons/${icon}.png`}
+        />
+    </div>
 );
 
 Image.propTypes = {

@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 import Forecast from './widgets/Forecast';
-import Error from './widgets/elements/Error';
-import Spinner from './widgets/elements/Spinner';
+import ForecastError from './widgets/ForecastError';
+import Spinner from './widgets/Spinner';
 
 const Main = ({city, lastUpdated, isFetching, forecast, error}) => (
     <div className='container main'>
@@ -10,7 +10,7 @@ const Main = ({city, lastUpdated, isFetching, forecast, error}) => (
             forecast={forecast}
             lastUpdated={lastUpdated}
         />}
-        {error && <Error error={error}/>}
+        {error && <ForecastError error={error}/>}
         {isFetching && <Spinner/>}
     </div>
 );
@@ -20,7 +20,7 @@ Main.propTypes = {
     lastUpdated: Forecast.propTypes.lastUpdated,
     isFetching: PropTypes.bool,
     forecast: Forecast.propTypes.forecast,
-    error: Error.propTypes.error
+    error: ForecastError.propTypes.error
 };
 
 export default Main;

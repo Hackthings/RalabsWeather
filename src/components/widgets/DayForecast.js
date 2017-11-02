@@ -1,15 +1,15 @@
 import React, {PropTypes} from 'react';
-import Daytime from './elements/Daytime';
+import DaytimeForecast from './DaytimeForecast';
 import _ from 'lodash';
 
-const Day = ({forecast}) => (
+const DayForecast = ({forecast}) => (
     <div>
-        <p>{forecast.date}</p>
+        <p className='forecast-date'>{forecast.date}</p>
         <ul>
             {
                 _.map(forecast.data, (daytimeForecast, i) => (
                     <li key={i}>
-                        <Daytime forecast={daytimeForecast}/>
+                        <DaytimeForecast forecast={daytimeForecast}/>
                     </li>
                 ))
             }
@@ -17,11 +17,11 @@ const Day = ({forecast}) => (
     </div>
 );
 
-Daytime.propTypes = {
+DaytimeForecast.propTypes = {
     forecast: PropTypes.arrayOf(PropTypes.shape({
         date: PropTypes.string,
-        data: Daytime.propTypes.forecast
+        data: DaytimeForecast.propTypes.forecast
     }))
 };
 
-export default Day;
+export default DayForecast;

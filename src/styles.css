@@ -58,6 +58,8 @@ a {
 /* CITY INPUT FORM */
 .form-input {
     background-color: #8f99ba;
+    position: sticky;
+    top: 0;
 }
 .city-input {
     padding: 15px 0;
@@ -91,4 +93,33 @@ a {
 /* MAIN PART */
 .main {
     padding: 30px 0;
+}
+.city-name {
+    padding: 0 0 20px 0;
+}
+.forecast {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.day-forecast {
+    border: 2px solid #3a2867;
+    border-radius: 4px;
+    box-sizing: border-box;
+    flex-basis: 49%;
+    padding: 10px;
+}
+.forecast-date {
+    padding: 10px 0;
+    border-bottom: 1px solid #3a2867;
+}
+.daytime-forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.weather-icon {
+    display: block;
 }

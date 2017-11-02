@@ -1,16 +1,16 @@
 import React, {PropTypes} from 'react';
 
-const Heading = ({city}) => (
-    <div>
+const City = ({city}) => (
+    <div className='city-name'>
         <h2>{city}</h2>
     </div>
 );
 
-Heading.propTypes = {
+City.propTypes = {
     city: PropTypes.oneOfType([
         PropTypes.string,
         PropTypes.bool
     ])
 };
 
-export default Heading;
+export default City;

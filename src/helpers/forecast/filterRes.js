@@ -55,10 +55,11 @@ const getDayForecast = (forecasts, daysToAdd) => {
     return _.map(dayForecast, (daytimeForecast) => (
         _.assign({}, daytimeForecast, {
             daytime: getDaytime(daytimeForecast.datetime),
-            app_temp: getTemp(daytimeForecast.app_temp),
+            appTemp: getTemp(daytimeForecast.app_temp),
             temp: getTemp(daytimeForecast.temp),
             pres: Math.round(daytimeForecast.pres),
-            wind_spd: Math.round(daytimeForecast.wind_spd),
+            windSpd: Math.round(daytimeForecast.wind_spd),
+            windDir: daytimeForecast.wind_cdir_full,
             rh: Math.round(daytimeForecast.rh)
         })
     ));

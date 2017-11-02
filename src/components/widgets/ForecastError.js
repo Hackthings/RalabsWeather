@@ -1,16 +1,16 @@
 import React, {PropTypes} from 'react';
 
-const Error = ({error}) => (
+const ForecastError = ({error}) => (
     <div>
         <p>{error}</p>
     </div>
 );
 
-Error.propTypes = {
+ForecastError.propTypes = {
     error: PropTypes.oneOfType([
         PropTypes.bool,
         PropTypes.object
     ])
 };
 
-export default Error;
+export default ForecastError;
