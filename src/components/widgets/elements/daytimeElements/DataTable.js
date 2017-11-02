@@ -3,26 +3,28 @@ import React, {PropTypes} from 'react';
 const DataTable = ({temp, pres, wind_spd, wind_cdir_full, rh, app_temp}) => (
     <table>
         <caption>Weather Data</caption>
-        <tr>
-            <th>Temperature</th>
-            <td>{temp} &#8451;</td>
-        </tr>
-        <tr>
-            <th>Pressure</th>
-            <td>{pres} mb</td>
-        </tr>
-        <tr>
-            <th>Wind</th>
-            <td>{wind_spd} m/s, {wind_cdir_full}</td>
-        </tr>
-        <tr>
-            <th>Relative humidity</th>
-            <td>{rh} &#x00025;</td>
-        </tr>
-        <tr>
-            <th>Feels like</th>
-            <td>{app_temp} &#8451;</td>
-        </tr>
+        <tbody>
+            <tr>
+                <th>Temperature</th>
+                <td>{temp} &#8451;</td>
+            </tr>
+            <tr>
+                <th>Pressure</th>
+                <td>{pres} mb</td>
+            </tr>
+            <tr>
+                <th>Wind</th>
+                <td>{wind_spd} m/s, {wind_cdir_full}</td>
+            </tr>
+            <tr>
+                <th>Relative humidity</th>
+                <td>{rh} &#x00025;</td>
+            </tr>
+            <tr>
+                <th>Feels like</th>
+                <td>{app_temp} &#8451;</td>
+            </tr>
+        </tbody>
     </table>
 );
 
