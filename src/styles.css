@@ -68,10 +68,12 @@ a {
     outline: none;
     border: 1px solid transparent;
     border-radius: 4px;
+    display: inline-block;
 }
 .city-input input[type='text'],
 .city-input input[type='submit'] {
     font-size: 17px;
+    box-sizing: border-box;
 }
 .city-input input[type='text'] {
     padding: 5px;
@@ -148,7 +150,39 @@ a {
 }
 .forecast-metadata {
     padding: 10px 0;
+    line-height: 150%;
 }
 .forecast-metadata .updatetime {
     font-weight: bold;
+}
+
+@media all and (max-width: 1200px) {
+    .main {
+        width: 90%;
+    }
+    .city-input {
+        width: 90%;
+    }
+}
+@media all and (max-width: 820px) {
+    .forecast {
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 480px) {
+    .city-input {
+        padding: 0;
+    }
+    .city-input input[type='text'],
+    .city-input input[type='submit'] {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .city-input input[type='text'] {
+        margin: 10px 0 5px 0;
+    }
+    .city-input input[type='submit'] {
+        margin: 5px 0 10px 0;
+    }
 }
