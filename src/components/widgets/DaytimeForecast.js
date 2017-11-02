@@ -8,8 +8,8 @@ const DaytimeForecast = ({forecast}) => (
     <div>
         <Daytime daytime={forecast.daytime}/>
         <Description description={forecast.weather.description}/>
-        <DataTable {...forecast}/>
         <Image {...forecast.weather}/>
+        <DataTable {...forecast}/>
     </div>
 );
 

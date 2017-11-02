@@ -37,12 +37,12 @@ const getDaytime = (datetime) => {
 const getTemp = (val) => {
     switch (Math.sign(val)) {
         case 1:
-            return '+' + Math.round(val);
+            return `+${Math.round(val)}`;
         case -1:
-            return Math.round(val) + '';
+            return `${Math.round(val)}`;
         case 0:
         case -0:
-            return 0 + '';
+            return '0';
         default:
             return val;
     }

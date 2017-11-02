@@ -104,22 +104,51 @@ a {
     justify-content: space-between;
 }
 .day-forecast {
-    border: 2px solid #3a2867;
-    border-radius: 4px;
     box-sizing: border-box;
-    flex-basis: 49%;
-    padding: 10px;
+    flex-basis: 48%;
+    padding: 10px 0;
 }
 .forecast-date {
+    font-size: 1.2em;
+    padding: 20px 30px;
+    background-color: #99ffc9;
+    border: 0 solid #99ffc9;
+    border-radius: 5px;
+}
+.daytime-forecast-list li {
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: 0 solid #e6fff1;
+    border-radius: 5px;
+    background-color: #e6fff1;
+}
+.daytime-name {
+    font-size: 1.5em;
     padding: 10px 0;
-    border-bottom: 1px solid #3a2867;
 }
-.daytime-forecast {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.daytime-forecast-description {
+    padding: 5px 0;
 }
-
-.weather-icon {
-    display: block;
+.daytime-forecast-table {
+    width: 100%;
+    padding: 5px 0;
+}
+.daytime-forecast-table caption {
+    display: none;
+}
+.daytime-forecast-table th {
+    font-weight: normal;
+}
+.daytime-forecast-table td {
+    text-align: right;
+}
+.weather-image-wrapper {
+    padding-right: 30px;
+    text-align: right;
+}
+.forecast-metadata {
+    padding: 10px 0;
+}
+.forecast-metadata .updatetime {
+    font-weight: bold;
 }

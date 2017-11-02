@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const Description = ({description}) => (
-    <p>{description}</p>
+    <p className='daytime-forecast-description'>{description}</p>
 );
 
 Description.propTypes = {

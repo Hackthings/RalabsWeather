@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const Image = ({icon, description}) => (
-    <div className='weather-icon'>
+    <div className='weather-image-wrapper'>
         <img
             alt={`Weather icon: ${description}`}
             src={`/dist/icons/${icon}.png`}

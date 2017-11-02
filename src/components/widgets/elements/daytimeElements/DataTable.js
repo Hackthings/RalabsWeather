@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
 const DataTable = ({temp, pres, windSpd, windDir, rh, appTemp}) => (
-    <table>
+    <table className='daytime-forecast-table'>
         <caption>Weather Data</caption>
         <tbody>
             <tr>
@@ -14,14 +14,18 @@ const DataTable = ({temp, pres, windSpd, windDir, rh, appTemp}) => (
             </tr>
             <tr>
                 <th>Wind</th>
-                <td>{windSpd} m/s, {windDir}</td>
+                <td>{windSpd} m/s</td>
             </tr>
             <tr>
-                <th>Relative humidity</th>
+                <th>Wind Direction</th>
+                <td>{windDir}</td>
+            </tr>
+            <tr>
+                <th>Relative Humidity</th>
                 <td>{rh} &#x00025;</td>
             </tr>
             <tr>
-                <th>Feels like</th>
+                <th>Feels Like</th>
                 <td>{appTemp} &#8451;</td>
             </tr>
         </tbody>

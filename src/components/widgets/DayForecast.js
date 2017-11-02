@@ -5,7 +5,7 @@ import _ from 'lodash';
 const DayForecast = ({forecast}) => (
     <div>
         <p className='forecast-date'>{forecast.date}</p>
-        <ul>
+        <ul className='daytime-forecast-list'>
             {
                 _.map(forecast.data, (daytimeForecast, i) => (
                     <li key={i}>

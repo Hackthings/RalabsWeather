@@ -1,8 +1,11 @@
 import React, {PropTypes} from 'react';
 
 const Meta = ({lastUpdated}) => (
-    <div>
-        <p>{`Last updated: ${lastUpdated}`}</p>
+    <div className='forecast-metadata'>
+        <p>
+            <span className='updatetime'>Last updated: </span>
+            <span>{lastUpdated}</span>
+        </p>
     </div>
 );
 
