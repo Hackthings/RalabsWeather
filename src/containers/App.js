@@ -73,7 +73,7 @@ const mapStateToProps = (state) => {
         error: null,
         forecast: {}
     };
-    console.log(getForecast(forecast));
+
     return {
         city: selectedCity,
         isFetching,
@@ -83,4 +83,4 @@ const mapStateToProps = (state) => {
     };
 };
 
-export default connect(mapStateToProps)(App);
+export default connect(mapStateToProps, undefined, undefined, {pure: false})(App);

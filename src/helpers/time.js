@@ -3,7 +3,7 @@
 import moment from 'moment';
 
 //Main Time To Live in milliseconds, current: 3h
-export const forecastTTL = 30000;//10800000;
+export const forecastTTL = 60000;//10800000;
 
 export const getCurrentDate = () => (
     Number(moment().format('x'))

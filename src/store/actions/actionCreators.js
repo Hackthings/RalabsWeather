@@ -2,7 +2,9 @@ import * as types from './actionTypes';
 import fetch from 'isomorphic-fetch';
 import {forecastTTL, getCurrentDate} from '../../helpers/time';
 import {getForecastURL} from '../../helpers/forecast/forecastURL';
+import {forecastException} from '../../helpers/error';
 
+//PURE ACTION CREATORS
 export const selectCity = (cityName) => ({
     type: types.SELECT_CITY,
     city: cityName
@@ -26,12 +28,23 @@ const errorFetch = (error, cityName) => ({
     city: cityName
 });
 
+//MIDDLEWARE
+//handle possible errors
+const processRes = (res) => {
+    if (res.status === 200) {
+        return res.json();
+    }  else {
+        throw forecastException(res);
+    }
+};
+
+//fetch data from weather API
 const fetchForecast = (cityName) => (
     (dispatch) => {
         dispatch(requestForecast(cityName));
 
         return fetch(getForecastURL(cityName))
-            .then(response => response.json())
+            .then(response => processRes(response))
             .then(json => dispatch(receiveForecast(cityName, json)))
             .catch(err => {
                 dispatch(errorFetch(err, cityName));
@@ -39,6 +52,7 @@ const fetchForecast = (cityName) => (
     }
 );
 
+//check if performance can be improved by retrieving data from state
 const shouldFetchForecast = (state, cityName) => {
     const forecast = state.forecastByCity[cityName];
 

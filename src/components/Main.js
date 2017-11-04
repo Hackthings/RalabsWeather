@@ -10,7 +10,7 @@ const Main = ({city, lastUpdated, isFetching, forecast, error}) => (
             forecast={forecast}
             lastUpdated={lastUpdated}
         />}
-        {error && <ForecastError error={error}/>}
+        {error && <ForecastError {...error} city={city}/>}
         {isFetching && <Spinner/>}
     </div>
 );
@@ -20,7 +20,7 @@ Main.propTypes = {
     lastUpdated: Forecast.propTypes.lastUpdated,
     isFetching: PropTypes.bool,
     forecast: Forecast.propTypes.forecast,
-    error: ForecastError.propTypes.error
+    error: PropTypes.object
 };
 
 export default Main;
